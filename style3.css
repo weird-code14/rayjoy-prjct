@@ -1,0 +1,116 @@
+.gridd{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap: 5px;
+    padding: 5px;
+    background-color: yellow;
+    border-radius: 5px;
+}
+.calcb{
+height: 250px;
+width: 150px;
+border-radius: 10px;
+background: rgb(17, 1, 1) ;
+color: rgb(20, 1, 1);
+
+}
+body{
+    background-color: rgb(58, 162, 213);
+}
+.grid2{
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0px;
+    padding: 1px;
+    border-radius: 5px;
+}
+.calc{
+    color: rgb(252, 251, 251);
+}
+.relt{
+    color: rgb(252, 251, 251);
+}
+.red{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+.hry{
+    background-color: green;
+    color: white;
+     border-radius: 5px;
+}
+.ref{
+background-color: grey;
+color: white;
+ border-radius: 5px;
+}
+.ret{
+background-color: grey;
+color: white;
+ border-radius: 5px;
+}
+.rey{
+background-color: grey;
+color: white;
+ border-radius: 5px;
+}
+.rew{
+    background-color: grey;
+    color: white;
+     border-radius: 5px;
+}
+.hyi{
+    padding:px;
+}
+.uy{
+    background-color: purple;
+color: rgb(250, 248, 250);
+ border-radius: 5px;
+}
+.uyi{
+    background-color: purple;
+color: rgb(251, 249, 251);
+ border-radius: 5px;
+}
+.uyt{
+    background-color: purple;
+    color: white;
+     border-radius: 5px;
+}
+.kiu{
+background-color: purple;
+color: white;
+ border-radius: 5px;
+}
+.kui{
+background-color: purple;
+color: white;
+ border-radius: 5px;
+}
+.kuo{
+background-color: purple;
+color: white;
+ border-radius: 5px;
+}
+.lol{
+    background-color: purple;
+    color: white;
+     border-radius: 5px;
+}
+.lop{
+    background-color: purple;
+    color: white;
+     border-radius: 5px;
+}
+.lok{
+ background-color: purple;
+ color: white;
+  border-radius: 5px;
+}
+.zero{
+    background-color: purple;
+    color: white;
+     border-radius: 5px;
+}

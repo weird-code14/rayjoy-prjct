@@ -1,0 +1,78 @@
+body.light-mode {
+  background: #84979f;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+body.dark-mode{
+    background: #59d3f5
+}
+body.dark-mode .buttons button{
+  background: #2e2e3e;
+  color: white;
+}
+
+
+body.dark-mode .calculator{
+   background: #1e1e2e; 
+}
+.calculator {
+  background: #fbfbfb;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  width: 280px;
+}
+
+.display {
+  text-align: right;
+  color: #2e2e3e;
+  margin-bottom: 20px;
+}
+body.dark-mode .display{
+  color: white;  
+}
+body.dark-mode .display .history{
+     color: #90d0e5;
+}
+.display .history {
+  font-size: 14px;
+  color: #90d0e5;
+}
+
+.display .result {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  padding: 20px;
+  font-size: 18px;
+  background: #8585a4;
+  color: #2e2e3e;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+body.dark-mode button.lope{
+    background: #59d3f5;
+  color: black;
+}
+
+button.lope {
+  background: #59d3f5;
+  color: white;
+}
+
+button.tall {
+  grid-row: span 2;
+}

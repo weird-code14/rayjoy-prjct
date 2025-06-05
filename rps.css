@@ -1,0 +1,65 @@
+
+body {
+      background-color: #0a2342;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 20px;
+    }
+    .scoreboard {
+      display: flex;
+      justify-content: center;
+      gap: 0 mpx;
+      margin-bottom: 30px;
+      font-size: 18px;
+    }
+    .score {
+      background: white;
+      color: black;
+      padding: 10px 20px;
+      border-radius: 10px;
+    }
+    .result {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 100px;
+      margin-top: 40px;
+    }
+    .choice {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .circle {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      background: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 50px;
+      margin-top: 10px;  
+      border: 10px solid;
+    }
+    .circle.player {
+      border-color: #fcd200;
+    }
+    .circle.house {
+      border-color: #007bff;
+    }
+    .center {
+      margin-top: 100px;
+    }
+    .btn {
+      background: white;
+      color: black;
+      border: none;
+      padding: 10px 20px;
+      margin: 10px;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 5px;
+    }

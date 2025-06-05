@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="./asng2.css">
+</head>
+<body class="light-mode">
+  <div class="calculator">
+    <div class="display">
+      <div id="anstxt" class="history">
+         <p>1200</p></div>
+      <div id="calctxt" class="result">75 × 4 × 4</div>
+    </div>
+    <div class="buttons">
+      <button class="lope">CE</button>
+      <button class="lope">+/-</button>
+      <button class="lope">%</button>
+      <button onclick="setVals(7)" >7</button>
+      <button onclick="setVals(8)">8</button>
+      <button onclick="setVals(9)">9</button>
+      <button class="lope">*</button>
+
+      <button onclick="setVals(4)">4</button>
+      <button onclick="setVals(5)">5</button>
+      <button onclick="setVals(6)">6</button>
+      <button class="lope">-</button>
+
+      <button onclick="setVals(1)">1</button>
+      <button onclick="setVals(2)">2</button>
+      <button onclick="setVals(3)">3</button>
+      <button class="tall light">+</button>
+
+      <button onclick="setVals(0)">0</button>
+      <button>.</button>
+      <button class="lope">=</button>
+    </div>
+  </div>
+  <button  class="toggle-mode"><b>DARK MODE</b></button>
+  <script src="theme.js" ></script>
+</body>
+</html>

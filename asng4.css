@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f44336; /* Red background */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+.navbar {
+  margin-bottom: 20px;
+  background-color: orange;
+  border-radius: 20px;
+}
+
+.navbar button {
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.game-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.score {
+  background-color: orange;
+  padding: 15px;
+  border-radius: 10px;
+  width: 80px;
+  height: 80px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.score p{
+  color: black;
+}
+.score span{
+color: white;
+}
+
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 60px);
+  grid-gap: 10px;
+  background-color: #f0f0f0;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.cell {
+  width: 60px;
+  height: 60px;
+  background-color: #d35400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  border-radius: 10px;
+  color: white;
+}
+
+.new-game {
+  margin-top: 20px;
+  background-color: orange;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
